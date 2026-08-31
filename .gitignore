@@ -1,0 +1,61 @@
+```
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+target/
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Python cache (if any Python files exist in project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Capacitor/Cordova build artifacts
+medicine-cabinet/dist/
+medicine-cabinet/build/
+medicine-cabinet/node_modules/
+medicine-cabinet/cordova/
+
+# Temporary files
+*.tmp
+*.temp
+Thumbs.db
+.DS_Store
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+
+# MyPy cache
+.mypy_cache/
+# PyTest cache
+.pytest_cache/
+
+# Android build artifacts (from BUILD_ANDROID_DEBUG_APK.md context)
+*.apk
+*.aab
+*.keystore
+local.properties
+
+# PowerShell execution logs (from build-debug-apk.ps1 context)
+*.ps1xml
+```
